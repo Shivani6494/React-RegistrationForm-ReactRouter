@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+This project used React Router with navication and 
+Registration Form with Validation (React, React Hook Form, Yup)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a fully functional React registration form built with modern form-handling best practices. It demonstrates how to create a clean, user-friendly, and performance-optimized form using React Hook Form and Yup validation.
 
-## Available Scripts
+The form includes:
 
-In the project directory, you can run:
+Name, Email, Password, Confirm Password fields
 
-### `npm start`
+Schema-based validation using Yup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Real-time password strength indicator (Weak / Medium / Strong)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Custom error messages
 
-### `npm test`
+Submit handler with form data logging
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Minimal re-renders thanks to React Hook Form’s efficient architecture
 
-### `npm run build`
+A second version of the form is also included using Formik + Yup for comparison.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is perfect for anyone learning:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Best practices for form handling in React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+How to integrate React Hook Form with Yup schema validation
 
-### `npm run eject`
+How to build reusable validation logic
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+How to enhance UX with live feedback (e.g., password strength)
